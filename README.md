@@ -31,3 +31,78 @@ This project required to create an asynchronous web app that uses Web API and us
 ## Details
 
 ### Node.js and Express Environment
+
+Firstly Node.js and Express were installed to the local machine from the command line. Then as follows:
+
+1. The project file `server.js` requires Express:
+
+```javascript
+const express = require('express')
+```
+
+2. An instance of the app is created with Express:
+
+```javascript
+const app = express();
+```
+
+3. The Express app instance is pointed to the project folder with `.html`, `.css` and `.js` files:
+
+```javascript
+app.use(express.static('website'));
+```
+
+### Project Dependencies
+
+1. The cors package is installed, requires in the project file `server.js` and the instance of the app is setup to use `cors()`:
+
+```javascript
+const cors = require('cors')
+app.use(cors());
+```
+
+2. The `body-parser` package is installed and also included in the project:
+
+```javascript
+const bodyParser = require('body-parser')
+```
+
+### Local Server & Endpoint
+
+Local server is running and producing feedback to the Command Line through a working callback function. JavaScript object named `projectData` is initiated in the file `server.js` to act as the app API endpoint.
+
+### Integrating OpenWeatherMap API
+
+1. The base URL, personal API Key (provided by the [OpenWeatherMap API](https://openweathermap.org/guide) documentation) and a dynamic values entered by a user were saved in named `const` and `let` variables.
+
+2. API Key is then passed as a parameter to `fetch()`.
+
+3. Data is successfully returned from the external API.
+
+### Return Endpoint Data: Server Side & Client Side
+
+There is a GET route setup on the server side (route I) with:
+
+* the first argument as a string naming the route
+* the second argument as a callback function to return the JS object created at the top of the code in the `server.js` file
+
+There is also an asynchronous function to fetch the data from the app endpoint (route II) at the `website/app.js` file.
+
+### POST Route
+
+An entry can be added to the project endpoint using a POST route setup on the server side and executed on the client side as an asynchronous function. The client side function takes two arguments: 
+
+* the URL to make a POST to
+* an object holding the data to POST
+
+The server side function creates a new entry in the app's endpoint (the named JS object) consisting of the data received from the client side POST.
+
+### Dynamic UI
+
+The button included in project HTML has an `addEventListener()` method called on it:
+
+* with click as the first parameter
+* a named callback function as the second parameter
+
+The `input` element with the `placeholder` property and the `textarea` are used for the interaction. Existing DOM elements have their `innerHTML` properties dynamically set according to data returned by the app route.
+
