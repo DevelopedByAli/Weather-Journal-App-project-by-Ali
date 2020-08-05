@@ -4,7 +4,7 @@
 
 * [Overview](#Overview)
 * [Most Required Skills](#Most-Required-Skills)
-* [Details](#Details)
+* [Detailed Explanation of the All Commitments](#Detailed-Explanation-of-the-All-Commitments)
 
 ## Overview
 
@@ -28,7 +28,7 @@ This project required to create an asynchronous web app that uses Web API and us
 
 * Testing Node.Js/Express API with Jest and/or Supertest
 
-## Details
+## Detailed Explanation of the All Commitments
 
 ### Node.js and Express Environment
 
