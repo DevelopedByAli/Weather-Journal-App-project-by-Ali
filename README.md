@@ -3,12 +3,24 @@
 ## Table of Contents
 
 * [Overview](#Overview)
+* [Technologies](#technologies)
 * [Most Required Skills](#Most-Required-Skills)
 * [Detailed Explanation of the All Commitments](#Detailed-Explanation-of-the-All-Commitments)
+
 
 ## Overview
 
 In this project it is required to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
+
+
+## Technologies
+
+The most required technologies in this project are
+
+* JavaScript ES6
+* Node.js
+* HTML 5
+* CSS 3
 
 ## Most Required Skills
 
