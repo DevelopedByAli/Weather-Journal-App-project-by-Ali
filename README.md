@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project required to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
+In this project it is required to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
 
 ## Most Required Skills
 
