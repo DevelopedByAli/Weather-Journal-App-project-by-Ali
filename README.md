@@ -24,9 +24,9 @@ This project required to create an asynchronous web app that uses Web API and us
 
 * Understanding the request object and the response object in Express
 
-* Using the fetch() method and Fetch: Cross-Origin Requests (CORS)
+* Using the `fetch()` method and Fetch: Cross-Origin Requests (CORS)
 
-* Testing Node.Js/Express API with Jest and/or Supertest
+* Testing `Node.Js/Express` API
 
 ## Detailed Explanation of the All Commitments
 
