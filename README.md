@@ -32,7 +32,7 @@ This project required to create an asynchronous web app that uses Web API and us
 
 ### Node.js and Express Environment
 
-Firstly Node.js and Express were installed to the local machine from the command line. Then as follows:
+First of all Node.js and Express are installed. Then 
 
 1. The project file `server.js` requires Express:
 
