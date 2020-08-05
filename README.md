@@ -1,1 +1,1 @@
-# Weather-Journal App-project-by-Ali
+# Weather-Journal App Project developedBy-Ali
