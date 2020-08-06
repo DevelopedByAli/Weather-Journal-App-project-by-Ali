@@ -24,11 +24,9 @@ The most required technologies in this project are
 
 ## Most Required Skills
 
-* Understanding and Using Asynchronous JavaScript
-
 * Knowledge of Server-Side Web Development
 
-* Knowledge of Node.js and Json, Urlencoded, Express, Cors, Body-Parser packages of it
+* Knowledge of Node.js 
 
 * Knowledge of using API keys
 
