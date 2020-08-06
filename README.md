@@ -32,7 +32,7 @@ The most required technologies in this project are
 
 * Knowledge of using API keys
 
-* Understanding the HTTP requests and routes i.e., Routes & `GET` requests, Routes & `POST` requests, Client side & Server side.
+* Understanding the HTTP requests and routes i.e., Routes & `GET` requests, Routes & `POST` requests, Client side & Server side programming.
 
 * Understanding the request object and the response object in Express
 
