@@ -36,6 +36,8 @@ The most required technologies in this project are
 
 * Using the `fetch()` method and Fetch: Cross-Origin Requests (CORS)
 
+* Connecting the Server Side and Client Side programming together
+
 * Knowledge of Asynchronous JavaScript: `Callbacks`, `Promises`, `Generators`
 
 * Testing `Node.Js/Express` API
