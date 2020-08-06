@@ -32,7 +32,7 @@ The most required technologies in this project are
 
 * Knowledge of using API keys
 
-* Understanding the Express routing and it's a respond to a client request to a particular endpoint. We  define routing with a specific HTTP request method: `app.get()`, `app.post()`, etc. These functions have access to the request object `(req)` and the response object `(res)`
+* Understanding the HTTP requests and routes i.e., Routes & `GET` requests, Routes & `POST` requests, Client side & Server side.
 
 * Understanding the request object and the response object in Express
 
