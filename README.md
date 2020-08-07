@@ -90,6 +90,22 @@ app.use(bodyParser.json());
 const port = 8000;
 ```
 
+2. Utilize the `.listen()` method
+
+```javascript
+const server = app.listen(port, listening);
+```
+
+3. The listening function
+
+This function will run when we execute the listen method to let you know that the server is running and on which port by logging messages to the console.
+
+```javascript
+function listening(){
+     console.log("server running"); 
+     console.log(`running on localhost: {$port}`);
+}
+```
 Local server is running and producing feedback to the Command Line through a working callback function. JavaScript object named `projectData` is initiated in the file `server.js` to act as the app API endpoint.
 
 ### Integrating OpenWeatherMap API
