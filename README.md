@@ -82,7 +82,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 ```
 
-### Local Server & Endpoint
+### Creating The Local Server & Endpoint
 
 Local server is running and producing feedback to the Command Line through a working callback function. JavaScript object named `projectData` is initiated in the file `server.js` to act as the app API endpoint.
 
