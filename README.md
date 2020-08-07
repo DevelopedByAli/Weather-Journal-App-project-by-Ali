@@ -26,9 +26,9 @@ The most required technologies in this project are
 
 * Knowledge of Server-Side Web Development
 
-* Understanding of the `Node.js` and `Express` environments to develop a web applications
+* Understanding of the `Node.js` and `Express` environments to develop a web applications.
 
-* Knowledge of using API keys
+* Knowledge of using API keys.
 
 * Understanding the HTTP requests and routes i.e., Routes & `GET` requests, Routes & `POST` requests, Client side & Server side programming.
 
