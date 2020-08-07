@@ -67,6 +67,7 @@ app.use(express.static('website'));
 1. The cors package is installed, requires in the project file `server.js` and the instance of the app is setup to use `cors()`:
 
 ```javascript
+// Cors for cross origin allowance
 const cors = require('cors')
 app.use(cors());
 ```
