@@ -52,6 +52,8 @@ First of all Node.js and Express are installed. Then
 
 ```javascript
 const express = require('express')
+// Start up an instance of app
+const app = express();
 ```
 
 2. An instance of the app is created with Express:
