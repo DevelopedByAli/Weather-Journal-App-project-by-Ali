@@ -84,6 +84,12 @@ app.use(bodyParser.json());
 
 ### Creating The Local Server & Endpoint
 
+1. We set our variable to port 8000.
+
+```javascript
+const port = 8000;
+```
+
 Local server is running and producing feedback to the Command Line through a working callback function. JavaScript object named `projectData` is initiated in the file `server.js` to act as the app API endpoint.
 
 ### Integrating OpenWeatherMap API
