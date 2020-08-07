@@ -56,19 +56,13 @@ const express = require('express')
 const app = express();
 ```
 
-2. An instance of the app is created with Express:
-
-```javascript
-const app = express();
-```
-
-3. The Express app instance is pointed to the project folder with `.html`, `.css` and `.js` files:
+2. The Express app instance is pointed to the project folder with `.html`, `.css` and `.js` files:
 
 ```javascript
 app.use(express.static('website'));
 ```
 
-### Project Dependencies
+### Dependencies
 
 1. The cors package is installed, requires in the project file `server.js` and the instance of the app is setup to use `cors()`:
 
