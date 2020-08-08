@@ -84,10 +84,10 @@ app.use(bodyParser.json());
 
 ### Creating The Local Server & Endpoint
 
-1. We set our variable to port 8000.
+1. We set our variable to port 3000.
 
 ```javascript
-const port = 8000;
+const port = 3000;
 ```
 
 2. Utilize the `.listen()` method
