@@ -15,7 +15,7 @@ In this project it is required to create an asynchronous web app that uses Web A
 
 ## Technologies
 
-The most required technologies in this project are
+The most required technologies and programs in this project are
 
 * JavaScript ES6
 * Node.js
