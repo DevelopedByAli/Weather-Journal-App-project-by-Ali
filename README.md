@@ -40,8 +40,6 @@ The most required technologies and programs in this project are
 
 * Knowledge of Asynchronous JavaScript: `Callbacks`, `Promises`, `Generators` and how to Chain them using a Syntax `.then()`
 
-* Knowledge of Chaining Promises using a Syntax `.then()`
-
 * Testing `Node.Js/Express` API
 
 ## Detailed Explanation of the All Commitments
