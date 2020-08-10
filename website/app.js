@@ -26,3 +26,14 @@ function performAction(element) {
     })
 
 }
+// A function to get the Web API data
+const getWeather = async(baseUrl, zip, key) => {
+
+    const res = await fetch(baseUrl + zip + key)
+    try {
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        console.log('error', error);
+    }
+}
