@@ -60,3 +60,18 @@ const addData = async(url = '', data = {}) => {
         console.log('error', error);
     }
 }
+// Creating a function to get the project data
+const UpdateUI = async() => {
+
+    const request = await fetch('/all');
+
+    try {
+        const allData = await request.json();
+        document.getElementById('date').innerHTML = `Date: ${allData[0].date}`;
+        document.getElementById('temp').innerHTML = `Temperature: ${allData[0].temp}`;
+        document.getElementById('content').innerHTML = `I feel: ${allData[0].content}`;
+
+    } catch (error) {
+        console.log('error', error);
+    }
+}
