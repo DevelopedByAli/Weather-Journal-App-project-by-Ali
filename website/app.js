@@ -26,6 +26,7 @@ function performAction(element) {
     })
 
 }
+
 // A function to get the Web API data
 const getWeather = async(baseUrl, zip, key) => {
 
@@ -37,6 +38,7 @@ const getWeather = async(baseUrl, zip, key) => {
         console.log('error', error);
     }
 }
+
 // Posting data function 
 const addData = async(url = '', data = {}) => {
 
@@ -60,6 +62,7 @@ const addData = async(url = '', data = {}) => {
         console.log('error', error);
     }
 }
+
 // Creating a function to get the project data
 const UpdateUI = async() => {
 
