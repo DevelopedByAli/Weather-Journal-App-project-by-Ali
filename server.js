@@ -28,7 +28,7 @@ app.use(express.static('website'));
 
 // Setup Server
 
-const port = 5500;
+const port = 3000;
 const server = app.listen(port, listening);
 
 function listening() {
@@ -52,10 +52,12 @@ app.post('/addData', postData);
 
 function postData(req, res) {
 
+    // temp -> temperature
+    // content -> user response
     projectData = {
         temp: request.body.temp,
         date: request.body.date,
-        userResponse: request.body.userResponse
+        content: request.body.content
     }
 
     res.send(projectData);
