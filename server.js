@@ -54,12 +54,11 @@ function postData(req, res) {
 
     // temp -> temperature
     // content -> user response
-    newEntry = {
+    projectData = {
         temp: request.body.temp,
         date: request.body.date,
         content: request.body.content
     }
     
-    projectData.push(newEntry);
     res.send(projectData);
 }
