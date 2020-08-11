@@ -11,7 +11,7 @@ let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear();
 // Creating an event listener for the element with the id: generate, with a callback function to execute when it is clicked.
 generate.addEventListener('click', performAction);
 
-function performAction() {
+function performAction(e) {
 
     const zipCode = document.getElementById('zip').value;
     const feelings = document.getElementById('feelings').value;
